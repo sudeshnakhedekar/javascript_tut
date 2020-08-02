@@ -1,11 +1,7 @@
-2 + 3;
+function multiply(a, b) {
 
-if(2+3===5){
-    console.log("Helloooo");
+    return a * b;
+  
+   
 }
-
-console.log("Helloooo");
-console.log("Helloooo");
-console.log("Helloooo");
-console.log("Helloooo");
-console.log("Helloooo");
+alert(12); 
