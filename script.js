@@ -1,7 +1,11 @@
-function multiply(a, b) {
-
-    return a * b;
-  
-   
+function sayHello() {
+    console.log("Hello")
 }
-alert(12); 
+
+sayHello();
+
+var sayBye = function() {
+    console.log("Bye");
+}
+
+sayBye();
