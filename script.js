@@ -1,43 +1,56 @@
-var todos =[
-    "clean room",
-    "brush teeth",
-    "exercise",
-    "study javascript",
-    "eat healthy"
-];
+var database = [
+    {
+        username: "sudeshna",
+        password: "supersecret"
+    } ,   
+    {
+        username: "bally",
+        password: "122"
+    },
+        {
+            username: "pasta",
+            password: "888"
+        }  
  
-var todosImportant =[
-    "clean room",
-    "brush teeth",
-    "exercise",
-    "study javascript",
-    "eat healthy"
-];
- var todosLength = todos.length;
-// for (var i=0; i< todosLength; i++) {
-//  console.log(todos[i], i);
+    ];
+    
+    var newsFeed = [
+    {
+        username: "Bobby",
+        timeline: "So tired from all that learning!"
+    },
+    {
+        username: "Sally",
+        timeline: "Javascript is so cool!"
+    },
+    {
+        username: "gommy",
+        timeline: "Javascript is preetyy cool!"
+    }
+    ];
+    
+  
+     function isUservalid(username, password){
+        for (var i= 0; i < database.length; i++) {
+            if (database[i].username === username && 
+               database[i].password === password) {
+                   return true;
+               
+               }
+     }
+     return false;
+    }
 
-// }
-function logTodos(todo, i){
-    console.log(todo, i);
-}
- 
-todos.forEach(logTodos);
-todosImportant.forEach(logTodos);
+    function signIn(username, password){
+     if(isUservalid(username, password)){
+          console.log(newsFeed);
+              }else{
+                  alert("Sorry, wrong username and password!");
+              }
+    }
 
-
-
-
-
-// var counterOne= 10; 
-// while (counterOne >10) {
-    // console.log("while",counterOne);
-    // counterOne--;
-// }  
-
-
-// var counterTwo =10
-// do{
-    // console.log("do while",counterTwo);
-    // counterTwo--;
-// }while (counterTwo >10);
+    var userNamePrompt = prompt("What is your username?");
+    var passwordPrompt = prompt("What is your password?");
+    
+       
+    signIn(userNamePrompt, passwordPrompt); 
