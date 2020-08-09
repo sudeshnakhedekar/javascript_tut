@@ -21,5 +21,11 @@
 .done{
     text-decoration: line-through;
 }
-
-}
+ li{
+     background-color: aquamarine;
+     font-size: large;
+ }
+  
+ h1{
+     background-color: blanchedalmond;
+ }
