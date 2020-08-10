@@ -1,11 +1,11 @@
 .coolTitle {
     text-align: center;
     font-family: 'Oswald', Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 44px;
     transform: skewY(-10deg);
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     word-spacing: -8px;
-    color: tomato;
+    color: yellow;
     text-shadow:
     -1px -1px 0 firebrick,
     -2px -2px 0 firebrick,
@@ -21,11 +21,9 @@
 .done{
     text-decoration: line-through;
 }
- li{
-     background-color: aquamarine;
-     font-size: large;
- }
-  
- h1{
-     background-color: blanchedalmond;
- }
+ 
+body {
+    margin: 41px;
+    width: 100%;
+  }
+
