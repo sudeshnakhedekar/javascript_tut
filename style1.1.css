@@ -7,7 +7,7 @@ text-align: center;
 text-transform: uppercase;
 letter-spacing: .5em;
 top: 15%;
-background: linear-gradient(to right , red, yellow);
+background: linear-gradient(to right, RGB(52, 234, 222), RGB(255, 221, 0));
 }
  
 h1{
@@ -17,6 +17,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: .5em;
     width: 100%;
+    background-color: rgb(174, 255, 127);
 }
 
 h2{
@@ -25,4 +26,6 @@ h2{
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
 }
+
