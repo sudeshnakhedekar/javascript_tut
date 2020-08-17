@@ -1,19 +1,14 @@
-// let + const
 
-const player = 'sobby';
-let experience = 100;
-let wizardLevel = false; 
+const singer = 'lolly';
+let albums = 50;
+let ideaLevel = false; 
 
-if  (experience > 90) {
-    let wizardLevel = true;
+if  (albums > 40) {
+    let ideaLevel = true;
 }
 
 const obj ={
-    player: 'sobby',
-    experience: 100,
-    wizardLevel: false
+    singer: 'lolly',
+    albums: 50,
+    ideaLevel: false
 }
-
-
-
-//use const and let insted of var//
