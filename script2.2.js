@@ -45,3 +45,24 @@ const newArray = array.forEach((num) =>{
  });
 
   console.log('map',mapArray);
+
+
+
+
+  //example for 3
+
+  
+const array = [2,4,6,8,10];
+
+const double =[]
+const newArray = array.forEach((num) =>{
+   double.push(num *4);
+})
+ console.log('forEach',double);
+
+
+ const mapArray = array.map((num)=>{
+     return num *4;
+ });
+
+  console.log('map',mapArray);
