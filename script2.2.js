@@ -126,10 +126,45 @@ const filterArray = array.filter(num => num> 5);
 console.log('filter', filterArray);
 
 
-//reduce
+// array reduce
 
 const reducrArray = array.reduce((accumulator,num)=> {
     return accumulator + num;
 }, 0)
 
 console.log('reduce', reducrArray);
+
+
+
+//
+//
+//
+//
+//basic 
+const array = [10,11,14,5,90,22];
+
+const double =[]
+const newArray = array.forEach(num =>{
+   double.push(num *5);
+})
+ console.log('forEach',double);
+
+// arrat map
+
+ const mapArray = array.map(num => num *4);
+
+  console.log('map',mapArray);
+
+//array filter
+
+const filterArray = array.filter(num => num> 5);
+console.log('filter', filterArray);
+
+
+// array reduce
+
+const reducrArray = array.reduce((accumulator,num)=> {
+    return accumulator + num;
+}, 10)
+
+console.log('reduce', reduceArray);
