@@ -1,11 +1,51 @@
- //includes method add on string and array in
- const pets = ['cat', 'dog', 'bat'];
+//Es8
+
+//.padStart()
+
+//.padEnd()
 
 
- pets.includes('dog')
+
+const fun = (a,
+             b,
+             c,
+             d,
+             e, 
+              ) => {
+    console.log(a);
+
+}
+fun(1,2,3,4,)
+
+object.values
+object.entries
+object.keys
+
+let obj ={
+    username0: 'Santa',
+    username1: 'Rudolf',
+    username2: 'Mr. Grinch'
+}
+Object.keys(obj).forEach((key, index) => {
+    console.log(key, obj[key]);
+}) 
 
 
-  //exponential method add on string and array in
 
-  const square = (x) => x**2  
-  const cube = (y) => y**3 
+
+
+
+
+
+Object.values(obj).forEach(value => {
+    console.log(value);
+})
+
+Object.entries(obj).forEach(value => {
+    console.log(value);
+})
+
+
+Object.entries(obj).map(value => {
+    return value[1] + value[0].replace('username', '');
+}) 
