@@ -7,7 +7,7 @@ text-align: center;
 text-transform: uppercase;
 letter-spacing: .5em;
 top: 15%;
-background: linear-gradient(to right, RGB(52, 234, 222), RGB(255, 221, 0));
+background: linear-gradient(to right, RGB(5, 233, 1), RGB(251, 255, 0));
 }
  
 h1{
@@ -17,7 +17,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: .5em;
     width: 100%;
-    background-color: rgb(174, 255, 127);
+    background-color: rgb(21, 211, 148);
 }
 
 h2{
