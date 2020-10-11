@@ -5,7 +5,7 @@
     transform: skewY(-10deg);
     letter-spacing: 5px;
     word-spacing: -8px;
-    color: yellow;
+    color: rgb(0, 255, 76);
     text-shadow:
     -1px -1px 0 firebrick,
     -2px -2px 0 firebrick,
@@ -23,5 +23,5 @@
 }
  
 body {
-    background-color: rgb(66, 238, 215);
+    background-color: rgb(97, 136, 131);
 }
